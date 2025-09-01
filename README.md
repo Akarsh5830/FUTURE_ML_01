@@ -1,4 +1,4 @@
-# Let's create a README.md file for the human-style sales forecasting notebook.
+
 
 readme_text = """# 📊 Sales Forecasting Project
 
@@ -76,9 +76,3 @@ The goal is to predict future sales based on past sales data, with some basic fe
 👤 Author: *Akarsh Yadav*  
 """
 
-# Save the README file
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_text)
-
-readme_path
